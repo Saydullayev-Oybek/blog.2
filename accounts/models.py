@@ -1,0 +1,9 @@
+from django.db import models
+from django.contrib.auth.models import AbstractUser
+
+# Create your models here.
+
+class CustomUser(AbstractUser):
+    country = models.CharField(max_length=160)
+    age = models.PositiveIntegerField(max_length=120)
+
