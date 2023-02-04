@@ -40,7 +40,7 @@ INSTALLED_APPS = [
                 # new apps
     'crispy_forms',
     'accounts',
-    'blog',
+    'pages',
 
 ]
 
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tashkent'
 
 USE_I18N = True
 
@@ -130,6 +130,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
 # EMAIL BACKEND
+
 EMAIL_BACKEND = 'django.core.mail.backend.console.EmailBackend'
 
 

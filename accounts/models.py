@@ -5,5 +5,5 @@ from django.contrib.auth.models import AbstractUser
 
 class CustomUser(AbstractUser):
     country = models.CharField(max_length=160)
-    age = models.PositiveIntegerField(max_length=120)
+    age = models.PositiveIntegerField()
 
